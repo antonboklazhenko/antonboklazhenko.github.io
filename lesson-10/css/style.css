@@ -1,40 +1,30 @@
-section#main {
-	background-image: url(../img/Shape_1.jpg);
-	height: 100vh;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-h1 {
-	text-transform: uppercase;
-	font-family: Carton;
-	color: #fff;
-	font-size: 4em;
-	font-weight: 400;
-	line-height: 0.984;
-}
-
-.main_header {
-	padding-top: 20%;
-}
-
-
-.main_icon {
-	height: 120px;
-	margin-top: 50px;
-}
-
-.box {
+nav {
+	position: fixed;
+	background-color: black;
+	width: 100vw;
 	height: 100px;
-	border: 2px solid #000;
-	margin-top: 100px;
-	margin-bottom: 100px;
 }
 
-.row_first {
-	margin: 22px;
+a {
+	color: #fff;
+	display: inline-block;
+	padding: 1.2em 0.5em;
+	font-size: 1.9em;
+	font-weight: bold;
+	transition: 0.5s ease-in-out;
+	font-family: 'Lobster', cursive;
 }
 
-.box_in {
-	height: 50px;
-	padding: 15px;
-	background-color: green;
+	a:hover {
+		text-decoration: none;
+		color: #f70211;
+	}
+
+p {
+	padding: 120px 50px 50px 50px;
 }
