@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	position: fixed;
+	background-color: black;
+	width: 100vw;
+	height: 100px;
+}
+
+a {
+	color: #fff;
+	display: inline-block;
+	padding: 1.2em 0.5em;
+	font-size: 1.9em;
+	font-weight: bold;
+	transition: 0.5s ease-in-out;
+	font-family: 'Lobster', cursive;
+}
+
+	a:hover, a:focus {
+		text-decoration: none;
+		color: #f70211;
+	}
+
+p {
+	padding: 120px 50px 50px 50px;
+}
