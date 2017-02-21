@@ -40,7 +40,7 @@ section {
 }
 /* Main Screen */
 header {
-  background: #f5f5f5 url(../img/);
+  background: #f5f5f5 url(../img/bg-main.jpg) no-repeat center center;
   min-height: 750px;
   height: 100vh;
 }
