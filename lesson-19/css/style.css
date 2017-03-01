@@ -502,7 +502,7 @@ footer {
   height: 48px;
   width: 48px;
   padding: 16px;
-  margin-right: 25px;
+  margin-right: 3%;
   text-align: center;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -675,20 +675,106 @@ Modal Window
   padding: 15px;
 }
 @media (min-width: 0px) and (max-width: 480px) {
+  .main-text h1 {
+    font-size: 35px;
+  }
+  .main-form {
+    margin-top: 2px;
+  }
+  .main-form-header {
+    font-size: 18px;
+  }
+  .main-form-btn {
+    padding: 16px;
+    margin: 15px auto 0px;
+  }
+  .section-header h2 {
+    font-size: 30px;
+  }
   .process-box {
     margin-top: 75px;
   }
+  .box-padding {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .works-box {
+    height: 100%;
+  }
+  .sign p {
+    font-size: 12px;
+  }
+  .sign button {
+    padding: 5px 5px;
+    font-size: 10px;
+  }
+  .services-info h4 {
+    font-size: 25px;
+  }
+  .services-list {
+    padding-left: 0px;
+  }
+  .services-list-item {
+    width: 94px;
+  }
+  .fa-facebook,
+  .fa-twitter,
+  .fa-dribbble,
+  .fa-behance {
+    font-size: 18px;
+    height: 48px;
+    width: 48px;
+    padding: 16px;
+    margin: 0px 0px;
+  }
+  p.copy-write {
+    display: inline-block;
+    padding-top: 20px;
+  }
 }
 @media (min-width: 481px) and (max-width: 767px) {
+  .main-text h1 {
+    font-size: 40px;
+  }
+  .main-form {
+    margin-top: 5px;
+  }
+  .section-header h2 {
+    font-size: 35px;
+  }
   .process-box {
-    margin-top: 75px;
+    margin-top: 65px;
   }
   .works-box {
     height: 100%;
     margin: 5px;
   }
+  .box-padding {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .sign p {
+    font-size: 12px;
+  }
+  .sign button {
+    padding: 5px 5px;
+    font-size: 10px;
+  }
+  .services-info h4 {
+    font-size: 25px;
+  }
+  .services-list {
+    padding-left: 0;
+  }
+  p.copy-write {
+    display: inline-block;
+    padding-top: 20px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  header {
+    height: 920px;
+  }
   .process-box {
     margin-top: 75px;
   }
@@ -698,6 +784,6 @@ Modal Window
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .works-box {
-    height: 294px;
+    height: 100%;
   }
 }
