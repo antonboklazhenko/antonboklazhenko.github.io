@@ -17,7 +17,7 @@
 @bg-koimona: #c049f8;
 @bg-koire: #817eff;
 @bg-lara: #f74770;
-@bg-services-list: #fbfbfb;
+@bg-services-list: #f8f8f8;
 @yellow: #ffef3b;
 @grey: #e0e0e0;
 /* Base settings */
@@ -331,12 +331,16 @@ i.fa-camera-retro {
 		list-style: none;
 		&-item {
 			display: block;
-			margin: 5px auto;
+			margin: 10px auto;
 			width: 100px;
 			height: 100px;
 			text-align: right;
 			background: @bg-services-list;
 		}
+	}
+	&-list-item:hover {
+	  background-color: #ffffff;
+	  box-shadow: 0px 0px 36px 0px rgba(20, 20, 21, 0.2);
 	}
 	&-info {
 		h4 {
