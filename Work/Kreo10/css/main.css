@@ -564,7 +564,7 @@ hr {
 	font: 15px/30px "raleway-heavy", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
-	color: #FFFFFF;
+	color: #12151B;
 	margin-bottom: 30px;
 	margin-top: 18px;
 }
@@ -967,7 +967,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #hero {
-	background: #0F1215 url(../images/hero-bg.jpg) no-repeat center;
+	background: #0F1215 url(../images/work1.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -975,7 +975,7 @@ ul#nav li.current a:after {
 	width: 100%;
 	text-align: left;
 	position: relative;
-	border-bottom: 1px solid #15191d;
+	border-bottom: 1px solid #6a6b6c;
 }
 
 .hero-content {
@@ -1293,9 +1293,9 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #portfolio {
-	background: #111417;
+	background: #fff;
 	padding-top: 120px;
-	border-bottom: 1px solid #15191d;  
+	border-bottom: 1px solid #6a6b6c;  
 }
 
 #portfolio .row.items {
@@ -1654,10 +1654,10 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #services {
-	background: #12151B;
+	background: #fff;
 	padding-top: 120px;
 	padding-bottom: 120px;
-	border-bottom: 1px solid #15191d;
+	border-bottom: 1px solid #6a6b6c;
 }
 
 .service-list {
@@ -1738,10 +1738,10 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #about {
-	background: #111417;
+	background: #fff;
 	padding-top: 120px;
 	padding-bottom: 120px;
-	border-bottom: 1px solid #15191d;
+	border-bottom: 1px solid #6a6b6c;
 }
 
 #about h3 {
@@ -2180,11 +2180,11 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #contact {
-	background: #12151B;
 	padding-top: 120px;
 	padding-bottom: 138px;
 	overflow: hidden;
-	border-bottom: 1px solid #15191d;  
+	border-bottom: 1px solid #15191d;
+	background: rgba(255,255,255,0);
 }
 
 #contact h3 {
@@ -2300,7 +2300,7 @@ input[type="email"],
 	display: inline-block;
 	padding: 15px 30px;
 	width: 100%;
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
 }
 
 #message-warning,
@@ -2472,16 +2472,16 @@ footer .info {
 }
 
 footer .footer-logo {
-	width: 100px;
-	height: 23px;
-	background: url("../images/logoW@2x.png") no-repeat center;
-	background-size: 100px 23px;
-	margin: 0 auto 21px;
-	display: block;
-	filter: alpha(opacity=10);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
-	opacity: 0.1;
-	zoom: 1;
+width: 100px;
+height: 23px;
+background: url("../images/logoW@2x.png") no-repeat center;
+background-size: 100px 23px;
+margin: 0 auto 21px;
+display: block;
+filter: alpha(opacity=10);
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+opacity: 0.1;
+zoom: 1;
 }
 
 /* copyright */
